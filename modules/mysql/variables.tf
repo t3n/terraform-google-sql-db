@@ -243,6 +243,7 @@ variable "read_replicas" {
     tier                  = string
     zone                  = string
     availability_type     = string
+    is_failover_target    = bool
     disk_type             = string
     disk_autoresize       = bool
     disk_autoresize_limit = number
